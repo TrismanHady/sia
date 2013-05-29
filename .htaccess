@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^home$ media.php?page=home [L]
+RewriteRule ^ceck\.php$ media.php?page=CekLogin&id=$1 [L]
+RewriteRule ^menu-login\.php$ media.php?page=login [L]
+Options All -Indexes

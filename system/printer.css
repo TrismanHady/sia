@@ -1,0 +1,299 @@
+<style type="text/css">
+table{
+
+}
+
+
+table#tablestd{
+width:auto;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 9pt;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #D8D8D8;
+	border-collapse: collapse;
+	margin: 10px 0px;
+}
+table#tablestd td{
+	padding: 0.5em; 	color: #000;
+	vertical-align: top;
+	border-width: 0px;
+	padding: 4px;
+	border: 1px solid #CCC;
+	
+}
+
+table#tablemodul1{
+width:100%;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 9pt;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #D8D8D8;
+	border-collapse: collapse;
+	margin: 10px 0px;
+}
+table#tablemodul1 td{
+	padding: 0.5em; 	color: #000;
+	vertical-align: top;
+	border-width: 0px;
+	padding: 4px;
+	border: 1px solid #CCC;
+	
+}
+
+th{
+	color: #000;
+	font-size: 9pt;
+	text-align: left;
+	padding: 0.5em;
+	border-width: 1px;
+	border-style: solid;
+	border: 1px solid #efefef;
+		border-color: #D8D8D8;
+	border-collapse: collapse;
+	background-color: #d8dfea;
+}
+
+
+a { text-decoration: none; }
+a:link
+  { color: navy; }
+a:visited {color: navy; }
+a:active  {color: navy; }
+a:hover   {
+  color: blue; 
+}
+
+BODY {
+  color: black;
+  margin: 10 20 10 20;
+  padding: 0 0 0 0;
+  width: auto;
+
+  font-size : 8pt;
+  font-family : Verdana, Arial, Helvetica, sans-serif;
+  font-weight : normal;
+}
+hr {
+  color: silver;
+  height: 1;
+}
+h3 {
+  color: gray;
+}
+.main {
+  border-style: ridge;
+  border-width: 2;
+  font-size: 8pt;
+}
+
+.simple {
+  width: 100%;
+  font-size: 8pt;
+  vertical-align: top;
+}
+.basic {
+  font-size: 8pt;
+}
+.box {
+  font-size: 8pt;
+  color: black;
+  border-left: silver 1px solid;
+  border-top: silver 1px solid;
+  border-right: silver 1px solid;
+  border-bottom: silver 1px solid;
+}
+.newslist {
+  padding: 4;
+  spacing: 0;
+  width: 100%;
+  font-size: 8pt;
+  vertical-align: top;
+}
+
+.categorylist {
+  padding: 0;
+  spacing: 0;
+  width: 100%;
+  font-size: 8pt;
+  background-color: silver;
+  vertical-align: top;
+}
+.categorylistitem {
+  background-color: white;
+  font-size: 8pt;
+  font-weight: normal;
+  color: black;
+}
+
+.whitebackground {
+  background-color: white;
+  vertical-align: top;
+  color: black;
+  font-weight: normal;
+  border-bottom: silver 1px solid;
+  border-right: silver 1px solid;
+}
+
+.errormsg {
+  background-color: #FFCCCC;
+  vertical-align: top;
+  font-size: 8pt;
+  width: 100%;
+  color: red;
+}
+.message {
+  background-color: #CCFFAA;
+  vertical-align: top;
+  font-size: 8pt;
+  width: 100%;
+  color: Black;
+}
+.topmenu-part {
+  background-color: #00CCCC;
+  text-align: center;
+  font-family: Verdana, Arial, Helvetica, Sans-Serif;
+  font-size: 7pt;
+  font-weight: bold;
+  color: white;
+}
+.topmenu-part a:link { color: white; }
+.topmenu-part a:visited { color: white; }
+.topmenu-part a:hover { color: yellow; }
+
+.menuheader {
+  background-color: silver;
+  font-size: 8pt;
+  font-weight: bold;
+  color: black;
+  border-bottom: gray 1px solid;
+}
+
+.menutitle {
+  background-color: #F08080;
+  font-size: 8pt;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+}
+.menuitem {
+  font-size: 8pt;
+  font-weight: normal;
+  color: black;
+}
+
+.header-part {
+
+}
+.main-part {
+  vertical-align: top;
+  padding: 2;
+}
+
+.left-part {
+  vertical-align: top;
+  font-size: 8pt;
+}
+
+.right-part {
+  vertical-align: top;
+}
+
+.footer-part {
+  vertical-align: top;
+  background-color: #00CCCC;
+  text-align: center;
+  color: white;
+  font-size: 8pt;
+  font-weight : normal;
+}
+
+.opinion {
+  background-color: silver;
+  font-size: 8pt;
+  font-weight: normal;
+  color: black;
+  width: 100%;
+}
+.opinionitem {
+  background-color: white;
+  font-size: 8pt;
+  font-weight: normal;
+  color: black;
+}
+.polling {
+  background-color: white;
+  font-size: 8pt;
+  font-weight: normal;
+  color: black;
+  width: 100%;
+}
+.pollitem {
+  background-color: white;
+  font-size: 8pt;
+  font-weight: normal;
+  color: black;
+}
+.pollform {
+  width: 100%;
+  vertical-align: top;
+  background-color: #FFCCAA;
+  font-size: 8pt;
+  color: black;
+}
+.pollformitem {
+  background-color: white;
+  font-size: 8pt;
+  vertical-align: top;
+}
+.login {
+  vertical-align: top;
+  background-color: white;
+  font-size: 8pt;
+  font-weight: normal;
+  color: black;
+  width: 100%;
+}
+.loginitem {
+  background-color: white;
+  font-size: 8pt;
+  font-weight: normal;
+  color: black;
+}
+.lst {
+	font-family: verdana,arial,helvetica;
+	font-size: 8pt;
+	color: black;
+	background-color: white;
+	border-right: silver 1px solid;
+	border-bottom: silver 1px solid;
+}
+.ttl {
+	font-family: verdana,arial,helvetica;
+	font-size: 8pt;
+	color: black;
+	background-color: silver;
+	border-right: gray 1px solid;
+	border-bottom: gray 1px solid;
+}
+.nac {
+	font-family: verdana,arial,helvetica;
+	font-size: 8pt;
+	font-style: italic;
+	color: gray;
+	background-color: #DEDEDE;
+	border-right: silver 1px solid;
+	border-bottom: silver 1px solid;
+}
+.wrn {
+	font-family: verdana,arial,helvetica;
+	font-size: 8pt;
+	font-weight: bold;
+	color: gray;
+	background-color: #DEDEDE;
+	border-right: silver 1px solid;
+	border-bottom: silver 1px solid;
+}
+.uline { border-bottom: silver 1px solid; }
+</style>
